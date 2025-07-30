@@ -1,6 +1,15 @@
 'use client';
 import { mockCharacters } from "./mocks/mocks";
 
+const mockCharacters: Character[] = [
+   {
+    id: 1,
+    name: "Rick Sanchez",
+    image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+]
 
 
 
