@@ -22,6 +22,16 @@ export default function Home() {
          <h2 className="text-xl font-semibold">{char.name}</h2>
             <p className="text-sm text-zinc-400">{char.species}</p>
             <p className="text-sm"></p>
+            Status: {""}
+
+          <span
+            className={
+              char.status === "Alive"
+                ? "text-green-400"
+                : char.status === "Dead"
+                ? "text-red-500"
+                : "text-yellow-500"
+            }
       </div>
       
      ))}
