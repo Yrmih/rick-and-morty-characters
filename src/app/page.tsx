@@ -7,7 +7,7 @@ import { mockCharacters } from "./mocks/mocks";
 export default function Home() {
   return (
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
-    <h1>Ricky & Morty</h1>
+    <h1 className="text3xl font-bold mb-8 text-center">Ricky & Morty</h1>
     <div>
      {mockCharacters.map((char) =>(
 
