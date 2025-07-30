@@ -32,8 +32,34 @@ const mockCharacters: Character[] = [
     status: "Alive",
     species: "Human",
   },
+   {
+    id: 5,
+    name: "Jerry Smith",
+    image: "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
   {
-  }
+    id: 6,
+    name: "Mr. Meeseeks",
+    image: "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+  {
+    id: 7,
+    name: "Birdperson",
+    image: "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+    status: "Alive",
+    species: "Birdperson",
+  },
+  {
+    id: 8,
+    name: "Squanchy",
+    image: "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+    status: "Alive",
+    species: "Cat Person",
+  },
 ]
 
 
