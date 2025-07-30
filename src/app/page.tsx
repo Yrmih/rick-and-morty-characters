@@ -14,7 +14,12 @@ export default function Home() {
       <div
        key={char.id}
        className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <h2>{char.}</h2>
+         <img
+              src={char.image}
+              alt={char.name}
+              className="w-full h-48 object-cover rounded mb-4"
+            />
+        <h2>{}</h2>
       </div>
       
      ))}
