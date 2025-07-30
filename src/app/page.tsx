@@ -19,7 +19,9 @@ export default function Home() {
               alt={char.name}
               className="w-full h-48 object-cover rounded mb-4"
             />
-        <h2>{}</h2>
+         <h2 className="text-xl font-semibold">{char.name}</h2>
+            <p className="text-sm text-zinc-400">{char.species}</p>
+            <p className="text-sm"></p>
       </div>
       
      ))}
