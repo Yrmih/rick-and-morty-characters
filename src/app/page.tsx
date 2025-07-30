@@ -63,7 +63,6 @@ const mockCharacters: Character[] = [
 ]
 
 
-
 export default function Home() {
   return (
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
