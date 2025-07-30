@@ -1,8 +1,9 @@
-import { ReactNode } from "react";
+
 
 export type Character = {
-  species: ReactNode;
-  name: ReactNode;
-  id: number | string | null | undefined;
-
+  id: number;
+  name: string;
+  image: string;
+  status: string;
+  species: string;
     }
