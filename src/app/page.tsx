@@ -1,5 +1,7 @@
 'use client';
-import { mockCharacters } from "./mocks/mocks";
+
+import { Character } from './types/types';
+
 
 const mockCharacters: Character[] = [
    {
