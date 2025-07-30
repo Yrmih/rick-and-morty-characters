@@ -11,7 +11,9 @@ export default function Home() {
     <div>
      {mockCharacters.map((char) =>(
 
-      <div>
+      <div
+       key={char.id}
+       className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <h2>{}</h2>
       </div>
       
