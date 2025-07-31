@@ -59,3 +59,7 @@ export const mockCharactersPage1: Character[] = [
     species: "Cat Person",
   },
 ]
+
+export const mockCharactersPage2: Character[] = [
+
+]
