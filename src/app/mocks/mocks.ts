@@ -103,4 +103,18 @@ export const mockCharactersPage2: Character[] = [
         status: "Dead",
         species: "Human",
     },
+    {
+        id: 15,
+        name: "Birdperson",
+        image: "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+        status: "Alive",
+        species: "Birdperson",
+    },
+    {
+        id: 16,
+        name: "Phoenix Person",
+        image: "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+        status: "Alive",
+        species: "Birdperson",
+    },
 ]
