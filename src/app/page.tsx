@@ -67,12 +67,12 @@ export default function Home() {
   return (
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
     <h1 className="text3xl font-bold mb-8 text-center">Ricky & Morty</h1>
-    <div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
      {mockCharacters.map((char) =>(
-
       <div
        key={char.id}
-       className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+       className="bg-zinc-900 rounded p-4 flex flex-col items-center"
+      >
          <img
               src={char.image}
               alt={char.name}
@@ -80,19 +80,21 @@ export default function Home() {
             />
          <h2 className="text-xl font-semibold">{char.name}</h2>
             <p className="text-sm text-zinc-400">{char.species}</p>
-            <p className="text-sm"></p>
-            Status: {""}
-
-          <span
-            className={
-              char.status === "Alive"
-                ? "text-green-400"
-                : char.status === "Dead"
-                ? "text-red-500"
-                : "text-yellow-500"
-            }
+            <p className="text-sm">
+              Status:{" "}
+              <span
+                className={
+                  char.status === "Alive"
+                    ? "text-green-400"
+                    : char.status === "Dead"
+                    ? "text-red-500"
+                    : "text-yellow-500"
+                }
+              >
+                {char.status}
+              </span>
+            </p>
       </div>
-      
      ))}
     </div>
 
