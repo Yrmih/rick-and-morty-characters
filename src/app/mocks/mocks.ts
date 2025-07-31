@@ -120,5 +120,61 @@ export const mockCharactersPage2: Character[] = [
 ]
 
 export const mockCharactersPage3: Character[] = [
-    
+    {
+        id: 17,
+        name: "Mr. Goldenfold",
+        image: "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+    {
+        id: 18,
+        name: "Principal Vagina",
+        image: "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+        status: "Alive",
+        species: "Human", 
+    },
+    {
+        id: 19,
+        name: "Dr. Xenon Bloom",
+        image: "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+    {
+        id: 20,
+        name: "Dr. Wong",
+        image: "https://rickandmortyapi.com/api/character/avatar/21.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+    {
+        id: 21,
+        name: "Unity",
+        image: "https://rickandmortyapi.com/api/character/avatar/22.jpeg",
+        status: "Alive",
+        species: "Alien",
+    },
+    {
+        id: 22,
+        name: "Krombopulos Michael",
+        image: "https://rickandmortyapi.com/api/character/avatar/23.jpeg",
+        status: "Dead",
+        species: "Alien",
+    },
+    {
+        id: 23,
+        name: "Squanchy",
+        image: "https://rickandmortyapi.com/api/character/avatar/24.jpeg ",
+        status: "Alive",
+        species: "Cat Person",
+    },
+    {
+        id: 24,
+        name: "Vance Maximus",
+        image: "https://rickandmortyapi.com/api/character/avatar/25.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+        
 ]
