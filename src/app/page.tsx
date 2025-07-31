@@ -1,6 +1,5 @@
 'use client';
 
-import { Character } from './types/types';
 import { mockCharacters } from './mocks/mocks';
 
 
