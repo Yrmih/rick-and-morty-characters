@@ -61,5 +61,46 @@ export const mockCharactersPage1: Character[] = [
 ]
 
 export const mockCharactersPage2: Character[] = [
-
+    {
+        id: 9,
+        name: "Evil Morty",
+        image: "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+    {
+        id: 10,
+        name: "Mr. Poopybutthole",
+        image: "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+    {
+        id: 11,
+        name: "Jessica",
+        image: "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+    {
+        id: 12,
+        name: "Armagheadon",
+        image: "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+        status: "Alive",
+        species: "Alien",
+    },
+    {
+        id: 13,
+        name: "Abradolf Lincler",
+        image: "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+        status: "Alive",
+        species: "Human",
+    },
+    {
+        id: 14,
+        name: "Tammy Guetermann",
+        image: "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+        status: "Dead",
+        species: "Human",
+    },
 ]
