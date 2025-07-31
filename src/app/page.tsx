@@ -102,7 +102,7 @@ export default function Home() {
       <button className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700">
         Anterior
       </button>
-      <button>
+      <button className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700">
         Próximo
       </button>
     </div>
