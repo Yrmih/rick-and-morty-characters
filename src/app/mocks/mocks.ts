@@ -1,10 +1,7 @@
 import { Character } from '../types/types';
 
-export const mockCharacters: Character[] = [
-  
-]
 
-const mockCharacters: Character[] = [
+export const mockCharacters: Character[] = [
    {
     id: 1,
     name: "Rick Sanchez",
