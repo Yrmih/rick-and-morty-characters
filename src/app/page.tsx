@@ -102,6 +102,9 @@ export default function Home() {
       <button>
         Anterior
       </button>
+      <button>
+        Próximo
+      </button>
     </div>
 
    </main>
