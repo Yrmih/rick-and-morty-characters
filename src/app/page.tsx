@@ -38,7 +38,8 @@ export default function Home() {
 
   return (
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
-    <h1 className="text3xl font-bold mb-8 text-center">Ricky & Morty</h1>
+    <h1 className="text-4xl font-extrabold">Multiverso Rick & Morty</h1>
+    <p className="text-zinc-400 text-sm mt-2 italic">Seleção Intergaláctica de Bizarrices</p>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
      {charactersToShow.map((char) =>(
       <div
