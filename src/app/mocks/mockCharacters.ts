@@ -411,3 +411,62 @@ export const mockCharactersPage7: Character[] = [
     species: "Alien",
   },
 ];
+
+export const mockCharactersPage8: Character[] = [
+  {
+    id: 57,
+    name: "Duck With Muscles",
+    image: "https://rickandmortyapi.com/api/character/avatar/59.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+  {
+    id: 58,
+    name: "Eli",
+    image: "https://rickandmortyapi.com/api/character/avatar/60.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+  {
+    id: 59,
+    name: "Eric McMan",
+    image: "https://rickandmortyapi.com/api/character/avatar/61.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 60,
+    name: "Ethan",
+    image: "https://rickandmortyapi.com/api/character/avatar/62.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 61,
+    name: "Father Bob",
+    image: "https://rickandmortyapi.com/api/character/avatar/63.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 62,
+    name: "Fart",
+    image: "https://rickandmortyapi.com/api/character/avatar/64.jpeg",
+    status: "Dead",
+    species: "Unknown",
+  },
+  {
+    id: 63,
+    name: "Frankenstein's Monster",
+    image: "https://rickandmortyapi.com/api/character/avatar/65.jpeg",
+    status: "Alive",
+    species: "Monster",
+  },
+  {
+    id: 64,
+    name: "Gar Gloonch",
+    image: "https://rickandmortyapi.com/api/character/avatar/66.jpeg",
+    status: "Dead",
+    species: "Alien",
+  },
+];
