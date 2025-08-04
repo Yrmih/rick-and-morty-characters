@@ -16,6 +16,11 @@ const allPages = [
   mockCharactersPage1,
   mockCharactersPage2,
   mockCharactersPage3,
+  mockCharactersPage4,
+  mockCharactersPage5,
+  mockCharactersPage6,
+  mockCharactersPage7,
+  mockCharactersPage8,
 ];
 
 export default function Home() {
