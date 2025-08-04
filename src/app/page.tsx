@@ -1,6 +1,6 @@
 'use client';
 
-import { mockCharactersPage1 }  from './mocks/mocks';
+import { mockCharactersPage1, mockCharactersPage2, mockCharactersPage3 }  from './mocks/mockCharacters';
 
 
 
