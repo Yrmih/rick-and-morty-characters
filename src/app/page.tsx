@@ -47,12 +47,12 @@ export default function Home() {
        key={char.id}
        className="bg-zinc-900 rounded p-4 flex flex-col items-center"
       >
-        <Image
-  src={char.image?.trim() ?? "/fallback.jpg"}
-  alt={char.name}
-  width={300}
-  height={300}
-/>
+      <Image
+        src={char.image?.trim() ?? "/fallback.jpg"}
+        alt={char.name}
+        width={300}
+        height={300}
+      />
 
          <h2 className="text-xl font-semibold">{char.name}</h2>
             <p className="text-sm text-zinc-400">{char.species}</p>
