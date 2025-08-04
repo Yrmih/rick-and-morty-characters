@@ -30,7 +30,11 @@ export default function Home() {
   const handleNextPage = () => {
     setPageIndex((prev) => (prev + 1) % allPages.length);
   }
-
+  const handlePreviousPage = () => {
+  setPageIndex((prev) =>
+    (prev - 1 + allPages.length) % allPages.length
+   );
+  };
 
   return (
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
@@ -68,7 +72,10 @@ export default function Home() {
 
     <div className='mt-8 flex justify-center gap-4'>
       <button onClick={handleNextPage} className="bg-zinc-700 text-white py-2 px-4 rounded">
-          Próxima Página
+          Volta aí, cientista louco!
+      </button>
+      <button onClick={handlePreviousPage} className="bg-zinc-700 text-white py-2 px-4 rounded">
+        Próxima aberração interdimensional
       </button>
     </div>
 
