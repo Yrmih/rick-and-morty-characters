@@ -176,5 +176,4 @@ export const mockCharactersPage3: Character[] = [
         status: "Alive",
         species: "Human",
     },
-        
-]
+];
