@@ -1,6 +1,16 @@
 'use client';
 import { useState } from 'react';
-import { mockCharactersPage1, mockCharactersPage2, mockCharactersPage3 }  from './mocks/mockCharacters';
+import {
+  mockCharactersPage1,
+  mockCharactersPage2,
+  mockCharactersPage3,
+  mockCharactersPage4,
+  mockCharactersPage5,
+  mockCharactersPage6,
+  mockCharactersPage7,
+  mockCharactersPage8,
+} from './mocks/mockCharacters';
+
 
 const allPages = [
   mockCharactersPage1,
