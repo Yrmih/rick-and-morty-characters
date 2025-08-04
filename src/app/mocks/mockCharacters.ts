@@ -294,3 +294,62 @@ export const mockCharactersPage5: Character[] = [
     species: "Human",
   },
 ];
+
+export const mockCharactersPage6: Character[] = [
+  {
+    id: 41,
+    name: "Beth's Father",
+    image: "https://rickandmortyapi.com/api/character/avatar/43.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 42,
+    name: "Campaign Manager Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/44.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 43,
+    name: "Centaur",
+    image: "https://rickandmortyapi.com/api/character/avatar/45.jpeg",
+    status: "Alive",
+    species: "Mythological Creature",
+  },
+  {
+    id: 44,
+    name: "Chris",
+    image: "https://rickandmortyapi.com/api/character/avatar/46.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+  {
+    id: 45,
+    name: "Colossus",
+    image: "https://rickandmortyapi.com/api/character/avatar/47.jpeg",
+    status: "Dead",
+    species: "Alien",
+  },
+  {
+    id: 46,
+    name: "Commander Rick",
+    image: "https://rickandmortyapi.com/api/character/avatar/48.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 47,
+    name: "Cop Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/49.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 48,
+    name: "Courier Flap",
+    image: "https://rickandmortyapi.com/api/character/avatar/50.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+];
