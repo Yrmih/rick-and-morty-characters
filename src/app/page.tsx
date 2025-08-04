@@ -13,10 +13,7 @@ export default function Home() {
   const charactersToShow = allPages[pageIndex];
 
   const handleNextPage = () => {
-    setPageIndex((prevIndex) => {
-      const nextIndex = prevIndex + 1;
-      return nextIndex < allPages.length ? nextIndex : prevIndex;
-    });
+    setPageIndex((prev) => (prev + 1) % allPages.length);
   }
 
 
