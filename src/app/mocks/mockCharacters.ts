@@ -235,3 +235,62 @@ export const mockCharactersPage4: Character[] = [
     species: "unknown",
   },
 ];
+
+export const mockCharactersPage5: Character[] = [
+  {
+    id: 33,
+    name: "Baby Legs",
+    image: "https://rickandmortyapi.com/api/character/avatar/35.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 34,
+    name: "Benjamin",
+    image: "https://rickandmortyapi.com/api/character/avatar/36.jpeg",
+    status: "Alive",
+    species: "Poopybutthole",
+  },
+  {
+    id: 35,
+    name: "Beth Smith (Clone)",
+    image: "https://rickandmortyapi.com/api/character/avatar/37.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 36,
+    name: "Bill",
+    image: "https://rickandmortyapi.com/api/character/avatar/38.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 37,
+    name: "Bill (Doofus Rick's Planet)",
+    image: "https://rickandmortyapi.com/api/character/avatar/39.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+  {
+    id: 38,
+    name: "Beth's Mytholog",
+    image: "https://rickandmortyapi.com/api/character/avatar/40.jpeg",
+    status: "Alive",
+    species: "Mytholog",
+  },
+  {
+    id: 39,
+    name: "Big Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/41.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 40,
+    name: "Body Guard Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/42.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+];
