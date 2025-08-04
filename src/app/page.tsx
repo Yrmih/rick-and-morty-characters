@@ -12,6 +12,13 @@ export default function Home() {
   const [pageIndex, setPageIndex] = useState(0);
   const charactersToShow = allPages[pageIndex];
 
+  const handleNextPage = () => {
+    setPageIndex((prevIndex) => {
+      const nextIndex = prevIndex + 1;
+      return nextIndex < allPages.length ? nextIndex : prevIndex;
+    });
+  }
+
 
   return (
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
