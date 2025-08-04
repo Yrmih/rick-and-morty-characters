@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { useState } from 'react';
 import {
   mockCharactersPage1,
@@ -46,11 +47,13 @@ export default function Home() {
        key={char.id}
        className="bg-zinc-900 rounded p-4 flex flex-col items-center"
       >
-         <img
-              src={char.image}
-              alt={char.name}
-              className="w-full h-48 object-cover rounded mb-4"
-            />
+        <Image
+  src={char.image?.trim() ?? "/fallback.jpg"}
+  alt={char.name}
+  width={300}
+  height={300}
+/>
+
          <h2 className="text-xl font-semibold">{char.name}</h2>
             <p className="text-sm text-zinc-400">{char.species}</p>
             <p className="text-sm">
