@@ -222,9 +222,9 @@ export const mockCharactersPage4: Character[] = [
   },
   {
     id: 31,
-    name: "Armagheadon",
-    image: "https://rickandmortyapi.com/api/character/avatar/32.jpeg",
-    status: "Alive",
+    name: "Beebo",
+    image: "https://rickandmortyapi.com/api/character/avatar/34.jpeg",
+    status: "Dead",
     species: "Alien",
   },
   {
