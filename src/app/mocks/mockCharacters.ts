@@ -177,3 +177,61 @@ export const mockCharactersPage3: Character[] = [
         species: "Human",
     },
 ];
+export const mockCharactersPage4: Character[] = [
+  {
+    id: 25,
+    name: "Alan Rails",
+    image: "https://rickandmortyapi.com/api/character/avatar/26.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 26,
+    name: "Annie",
+    image: "https://rickandmortyapi.com/api/character/avatar/27.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 27,
+    name: "Antenna Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/28.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 28,
+    name: "Antenna Rick",
+    image: "https://rickandmortyapi.com/api/character/avatar/29.jpeg",
+    status: "unknown",
+    species: "Human",
+  },
+  {
+    id: 29,
+    name: "Ants in my Eyes Johnson",
+    image: "https://rickandmortyapi.com/api/character/avatar/30.jpeg",
+    status: "unknown",
+    species: "Human",
+  },
+  {
+    id: 30,
+    name: "Arcade Alien",
+    image: "https://rickandmortyapi.com/api/character/avatar/31.jpeg",
+    status: "unknown",
+    species: "Alien",
+  },
+  {
+    id: 31,
+    name: "Armagheadon",
+    image: "https://rickandmortyapi.com/api/character/avatar/32.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+  {
+    id: 32,
+    name: "Armothy",
+    image: "https://rickandmortyapi.com/api/character/avatar/33.jpeg",
+    status: "Dead",
+    species: "unknown",
+  },
+];
