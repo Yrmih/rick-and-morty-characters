@@ -353,3 +353,61 @@ export const mockCharactersPage6: Character[] = [
     species: "Alien",
   },
 ];
+export const mockCharactersPage7: Character[] = [
+  {
+    id: 49,
+    name: "Cousin Nicky",
+    image: "https://rickandmortyapi.com/api/character/avatar/51.jpeg",
+    status: "Dead",
+    species: "Alien",
+  },
+  {
+    id: 50,
+    name: "Cowboy Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/52.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 51,
+    name: "Crab Spider",
+    image: "https://rickandmortyapi.com/api/character/avatar/53.jpeg",
+    status: "Alive",
+    species: "Alien",
+  },
+  {
+    id: 52,
+    name: "Creepy Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/54.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 53,
+    name: "Cyclops Morty",
+    image: "https://rickandmortyapi.com/api/character/avatar/55.jpeg",
+    status: "Alive",
+    species: "Humanoid",
+  },
+  {
+    id: 54,
+    name: "Dale",
+    image: "https://rickandmortyapi.com/api/character/avatar/56.jpeg",
+    status: "Dead",
+    species: "Human",
+  },
+  {
+    id: 55,
+    name: "Doofus Rick",
+    image: "https://rickandmortyapi.com/api/character/avatar/57.jpeg",
+    status: "Alive",
+    species: "Human",
+  },
+  {
+    id: 56,
+    name: "Dr. Glip-Glop",
+    image: "https://rickandmortyapi.com/api/character/avatar/58.jpeg",
+    status: "Dead",
+    species: "Alien",
+  },
+];
