@@ -1,8 +1,12 @@
 'use client';
-
+import { useState } from 'react';
 import { mockCharactersPage1, mockCharactersPage2, mockCharactersPage3 }  from './mocks/mockCharacters';
 
-
+const allPages = [
+  mockCharactersPage1,
+  mockCharactersPage2,
+  mockCharactersPage3,
+];
 
 export default function Home() {
   return (
