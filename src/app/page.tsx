@@ -10,6 +10,7 @@ const allPages = [
 
 export default function Home() {
   const [pageIndex, setPageIndex] = useState(0);
+  const charactersToShow = allPages[pageIndex];
 
 
   return (
