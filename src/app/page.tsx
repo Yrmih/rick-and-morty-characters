@@ -9,6 +9,9 @@ const allPages = [
 ];
 
 export default function Home() {
+  const [pageIndex, setPageIndex] = useState(0);
+
+
   return (
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
     <h1 className="text3xl font-bold mb-8 text-center">Ricky & Morty</h1>
