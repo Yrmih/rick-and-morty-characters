@@ -41,12 +41,21 @@ export default function Home() {
    <main className="p-6 min-h-screen bg-zinc-950 text-white">
     <h1 className="text-4xl font-extrabold">Multiverso Rick & Morty</h1>
     <p className="text-zinc-400 text-sm mt-2 italic">Seleção Intergaláctica de Bizarrices</p>
+
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-     {charactersToShow.map((char) =>(
+      {charactersToShow.map((char) => {
+          const statusColor =
+            char.status === "Alive"
+              ? "text-green-400"
+              : char.status === "Dead"
+              ? "text-red-500"
+              : "text-yellow-500";
+      return ( // Renderizando cada personagem
       <div
        key={char.id}
        className="bg-zinc-900 rounded p-4 flex flex-col items-center"
       >
+      
       <Image
         src={char.image?.trim() ?? "/fallback.jpg"}
         alt={char.name}
@@ -58,19 +67,11 @@ export default function Home() {
             <p className="text-sm text-zinc-400">{char.species}</p>
             <p className="text-sm">
               Status:{" "}
-              <span
-                className={
-                  char.status === "Alive"
-                    ? "text-green-400"
-                    : char.status === "Dead"
-                    ? "text-red-500"
-                    : "text-yellow-500"
-                }
-              >
-                {char.status}
-              </span>
+              <span className={statusColor}>{char.status}</span>
             </p>
       </div>
+      );
+      }
      ))}
     </div>
 
