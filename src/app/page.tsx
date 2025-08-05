@@ -63,21 +63,20 @@ export default function Home() {
         height={300}
       />
 
-         <h2 className="text-xl font-semibold">{char.name}</h2>
-            <p className="text-sm text-zinc-400">{char.species}</p>
-            <p className="text-sm">
-              Status:{" "}
-              <span className={statusColor}>{char.status}</span>
-            </p>
-      </div>
+        <h2 className="text-xl font-semibold">{char.name}</h2>
+          <p className="text-sm text-zinc-400">{char.species}</p>
+          <p className="text-sm">
+            Status:{" "}
+          <span className={statusColor}>{char.status}</span>
+        </p>
+  </div>
       );
-      }
-      )}
+  })}
      
     </div>
 
     <div className='mt-8 flex justify-center gap-4'>
-      <button 
+    <button 
       onClick={handlePreviousPage} 
       className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded transition-colors duration-200"
       >
