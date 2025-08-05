@@ -72,18 +72,18 @@ export default function Home() {
       </div>
       );
       }
-     ))}
+      )}
+     
     </div>
 
     <div className='mt-8 flex justify-center gap-4'>
-      <button onClick={handleNextPage} className="bg-zinc-700 text-white py-2 px-4 rounded">
-          Volta aí, cientista louco!
-      </button>
-      <button onClick={handlePreviousPage} className="bg-zinc-700 text-white py-2 px-4 rounded">
-        Próxima aberração interdimensional
-      </button>
-    </div>
-
+  <button onClick={handlePreviousPage} className="bg-zinc-700 text-white py-2 px-4 rounded">
+    Volta aí, cientista louco!
+  </button>
+  <button onClick={handleNextPage} className="bg-zinc-700 text-white py-2 px-4 rounded">
+    Próxima aberração interdimensional
+  </button>
+</div>
    </main>
   );
 }
